@@ -41,21 +41,34 @@
             <a class="btn secondary" href="#truths">Read the 3 truths ↓</a>
           </div>
         </div>
-        <div class="visual card" aria-hidden="true">
-          <div class="glow"></div>
-          <svg viewBox="0 0 600 420" width="100%" height="100%" role="img" aria-label="Payout vs Balance">
-            <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7c5cff" offset="0"/><stop stop-color="#59e1ff" offset="1"/></linearGradient></defs>
-            <rect x="0" y="0" width="600" height="420" fill="url(#g1)" opacity=".06"/>
-            <polyline points="30,360 90,340 150,300 210,260 270,210 330,165 390,140 450,130 510,128" fill="none" stroke="#59e1ff" stroke-width="3" />
-            <polyline points="30,370 90,360 150,350 210,345 270,342 330,340 390,339 450,338 510,338" fill="none" stroke="#7c5cff" stroke-width="3" />
-            <text x="360" y="150" fill="#a7b0c9" font-size="12">Payouts</text>
-            <text x="420" y="338" fill="#a7b0c9" font-size="12">Account Balance</text>
-          </svg>
-          <div class="ticker">
-            <div class="ticker-row"><span>Objective</span><span>Higher, earlier, steadier payouts</span></div>
-            <div class="ticker-row"><span>Constraints</span><span>Liquidity • Longevity • Legacy</span></div>
-          </div>
-        </div>
+
+<!-- Visual card with no graph -->
+<div class="visual card" aria-hidden="true">
+  <div class="glow"></div>
+
+  <div style="min-height:240px; display:grid; place-items:center; padding:24px; text-align:center">
+    <div>
+      <h3 style="margin:0 0 8px; font-size:22px; line-height:1.2">
+        Get more from CPF — without losing control
+      </h3>
+      <p class="sub" style="margin:0 auto; max-width:85%;">
+        A compliant, timing-smart strategy to unlock flexibility, pursue better risk-adjusted growth,
+        and still secure lifelong income — all within CPF rules.
+      </p>
+      <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:12px;">
+        <span class="tag">Income</span>
+        <span class="tag">Liquidity</span>
+        <span class="tag">Legacy</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="ticker">
+    <div class="ticker-row"><span>Objective</span><span>Higher, earlier, steadier payouts</span></div>
+    <div class="ticker-row"><span>Constraints</span><span>Liquidity • Longevity • Legacy</span></div>
+  </div>
+</div>
+
       </section>
 
       <!-- THE 3 TRUTHS -->
@@ -66,15 +79,16 @@
             <span class="tag">Truth #1</span>
             <h2>“CPF interest is 4%”… really?</h2>
             <p>
-              Your Retirement Account (RA) earns a <em>floor</em> rate before payouts. But from age 65, your RA is usually used to buy CPF LIFE—
-              converting savings into lifetime income. That means you don’t see 4% keep compounding in your account; the interest is embedded
-              in the annuity that funds your payouts.
+              From <strong>55 to 65</strong>, when your Retirement Account (RA) is set aside, it generally earns the RA floor rate people quote as “4% p.a.” (before payouts begin). 
+              But at around <strong>65</strong> your RA savings are typically used to buy <em>CPF LIFE</em>—converting your balance into a lifetime annuity. From then on you’re
+              <em>not</em> getting 4% credited to a visible RA balance; the interest assumptions are baked into the annuity pricing that determines your monthly payout.
             </p>
             <p>
-              <strong>The real, long-horizon effective rate from age 55 to 85 is ~2–3%+.</strong> Why? There’s a 10-year wait (55→65) with no cashflows,
-              followed by fixed monthly payouts (65→85). Under realistic cohort assumptions, the annualised internal rate works out in the
-              <span class="highlight">~2.5% to ~3.5%</span> range depending on plan and payout level—not a visible 4% compounding balance.
+              That’s why, over the full <strong>55→85</strong> horizon, the effective annualised rate is usually much lower than a simple “4% compounding.” 
+              The good news: there are <strong>legal, policy-aligned ways</strong> to restructure timing and sources of cash so you keep liquidity and pursue better risk-adjusted growth 
+              while preserving lifetime income. I outline the approach in a quick call—see <a href="#solution">the hint</a>.
             </p>
+
             <p class="note">Illustrative and for education; exact numbers depend on your balances, plan (Standard/Escalating), and start age.</p>
           </div>
           <div class="card" style="padding:24px">
@@ -159,6 +173,7 @@
               <div class="ticker-row"><span>Deliverable</span><span>Personalised CPF Action Plan (1-pager)</span></div>
             </div>
             <div class="glow"></div>
+            <!-- Keeping the buckets SVG below; tell me if you want this removed too -->
             <svg viewBox="0 0 600 230" width="100%" height="100%" role="img" aria-label="Buckets">
               <rect x="0" y="0" width="600" height="230" fill="url(#g1)" opacity=".06"/>
               <g><rect x="40" y="120" width="150" height="80" rx="12" fill="#0e1530" stroke="rgba(255,255,255,.15)"/><text x="115" y="165" fill="#a7b0c9" text-anchor="middle">Liquidity</text></g>
