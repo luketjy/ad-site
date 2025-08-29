@@ -1,22 +1,23 @@
 :root{
-  /* Light theme palette */
-  --bg:#f7f9fc;
-  --card:#ffffff;
-  --muted:#4b5563;
-  --text:#0b1020;
-  --accent:#7c5cff;
-  --accent-2:#59e1ff;
-  --good:#00a37a;
-  --warn:#b7791f;
-  --err:#d92d20;
+  /* CPF-inspired palette */
+  --bg:#f7fdf9;         /* very light mint background */
+  --card:#ffffff;       /* white cards */
+  --muted:#4b5563;      /* neutral text */
+  --text:#0b2e13;       /* CPF dark green */
+  --accent:#00703c;     /* CPF primary green */
+  --accent-2:#00a15a;   /* lighter green accent */
+  --good:#00703c;       /* positive = CPF green */
+  --warn:#b7791f;       /* keep warm amber for warnings */
+  --err:#d92d20;        /* red for errors */
   --radius:16px;
 
   /* Effects */
-  --ring: 0 0 0 3px rgba(89,225,255,.20);
+  --ring: 0 0 0 3px rgba(0,161,90,.20);
   --shadow: 0 6px 18px rgba(17,24,39,.06);
   --border: 1px solid rgba(17,24,39,.08);
   --border-strong: 1px solid rgba(17,24,39,.15);
 }
+
 
 /* Base reset */
 *,*::before,*::after{box-sizing:border-box}
